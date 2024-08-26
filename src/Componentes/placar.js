@@ -14,8 +14,8 @@ export default class Placar extends Component {
                     <p id={this.props.id} className="pont">0</p>
                 </div>
                 <div className="buttons">
-                    <button className="btnPont" type="button" onClick={ () => { addPont(this.props.id) }}>+</button>
-                    <button className="btnPont" type="button" onClick={ () => { removePont(this.props.id) }}>-</button>
+                    <button className="btnPont" type="button" onClick={ () => { addPont(this.props.id) } }>+</button>
+                    <button className="btnPont" type="button" onClick={ () => { removePont(this.props.id) } }>-</button>
                 </div>
             </div>
         )
